@@ -1,0 +1,47 @@
+body {
+    padding: 20px;
+    padding-left:40px;
+}
+
+
+.blog-footer {
+    width: 100%;
+    border-top: 1px solid gray;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.sidebar {
+    float:left;
+    width: 80px;
+}
+
+.main-section {
+    float:left;
+    margin-left: 100px;
+    max-width: 800px;
+    width: 60%;
+}
+
+.page-wrapper:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.blog-header {
+    margin-bottom: 40px;
+}
+
+.navlink {
+    width: 100%;
+    display:block;
+}
+
+.blog-post {
+    margin-bottom: 100px;
+}
+
+.blog-post-title {
+    margin-top: 0px;
+}
