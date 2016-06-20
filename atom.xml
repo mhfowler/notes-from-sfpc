@@ -5,7 +5,7 @@
   <link href="/notes-from-sfpc/atom.xml" rel="self"/>
   
   <link href="http://mhfowler.github.io/notes-from-sfpc/"/>
-  <updated>2016-06-20T16:58:52.000Z</updated>
+  <updated>2016-06-20T18:06:02.000Z</updated>
   <id>http://mhfowler.github.io/notes-from-sfpc/</id>
   
   <author>
@@ -16,26 +16,88 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://mhfowler.github.io/notes-from-sfpc/2016/06/20/hello-world/"/>
-    <id>http://mhfowler.github.io/notes-from-sfpc/2016/06/20/hello-world/</id>
-    <published>2016-06-20T16:58:52.000Z</published>
-    <updated>2016-06-20T16:58:52.000Z</updated>
+    <title>upstart</title>
+    <link href="http://mhfowler.github.io/notes-from-sfpc/2016/06/20/upstart/"/>
+    <id>http://mhfowler.github.io/notes-from-sfpc/2016/06/20/upstart/</id>
+    <published>2016-06-20T18:05:53.000Z</published>
+    <updated>2016-06-20T18:06:02.000Z</updated>
     
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://mhfowler.github.io/westbeth/poems/upstart.html&quot;&gt;http://mhfowler.github.io/westbeth/poems/upstart.html&lt;/a&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;p&gt;&lt;a href=&quot;http://mhfowler.github.io/westbeth/poems/upstart.html&quot;&gt;http://mhfowler.github.io/westbeth/poems/upstart.html&lt;/a&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>bell labs</title>
+    <link href="http://mhfowler.github.io/notes-from-sfpc/2016/06/20/bell-labs/"/>
+    <id>http://mhfowler.github.io/notes-from-sfpc/2016/06/20/bell-labs/</id>
+    <published>2016-06-20T18:02:09.000Z</published>
+    <updated>2016-06-20T18:05:11.000Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;Notes-From-“interactive-art-and-embodiment”-by-Nathaniel-Stern&quot;&gt;&lt;a href=&quot;#Notes-From-“interactive-art-and-embodiment”-by-Nathaniel-Stern&quot; class=&quot;headerlink&quot; title=&quot;Notes From “interactive art and embodiment” by Nathaniel Stern&quot;&gt;&lt;/a&gt;Notes From “interactive art and embodiment” by Nathaniel Stern&lt;/h3&gt;&lt;p&gt;perception is more than meets the eye &amp;mdash; even with what we traditionally think of as vision&lt;/p&gt;
+&lt;p&gt;Body and image mediate one another, and the locus of perception is between, and of, the two&lt;/p&gt;
+&lt;p&gt;‘an ongoing drive to escape flesh’s limitations’ (since descarte and plato)… I argue this escape is pure fantasy.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;“It was electrical engineer Claude Shannon who first posited a theory of communication whereby information exists in an immaterial form,&lt;br&gt;and which merely needed a vessel to be transmitted”&lt;br&gt;(A Mathematical Theory Of Communication &amp;mdash; Information Theory)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;while data might be replicated or sometimes salvaged, embodiment and the material world cannot be replaced&lt;/p&gt;
+&lt;p&gt;“the challenge for new mediat art and theory .. is to move beyond the twin premises of disembodiment and extension in space that continue to qualify both information and corporeality”&lt;/p&gt;
+&lt;h3 id=&quot;interview-with-claude-shannon&quot;&gt;&lt;a href=&quot;#interview-with-claude-shannon&quot; class=&quot;headerlink&quot; title=&quot;interview with claude shannon&quot;&gt;&lt;/a&gt;interview with claude shannon&lt;/h3&gt;&lt;p&gt;Claude Shannon:&lt;br&gt;[telling a story about Alan Turing]&lt;/p&gt;
+&lt;p&gt;So I asked him what he was doing.&lt;br&gt;And he said he was trying to find a way to get better feedback from a computer so he would know what was going on inside the computer.&lt;br&gt;And he’d invented this wonderful command.&lt;br&gt;See, in those days they were working with individual commands.&lt;br&gt;And the idea was to discover good commands.&lt;br&gt;And I said, what is the command? And he said, the command is put a pulse to the hooter, put a pulse to the hooter.&lt;br&gt;Now let me translate that.&lt;br&gt;A hooter is an English, in England is a loudspeaker.&lt;br&gt;And by putting a pulse to it, it would just be put a pulse to a hooter.&lt;br&gt;Now what good is this crazy command?&lt;br&gt;Well, the good of this command is that if you’re in a loop you can have this command in that loop&lt;br&gt;and every time it goes around the loop it will put a pulse in and you will hear a frequency equal to&lt;br&gt;how long it takes to go around that loop. And then you can put another one in some bigger loop and so on.&lt;br&gt;And so you’ll hear all of this coming on and you’ll hear this “boo boo boo boo boo boo,”[CS vocalizing in a sing-song fashion]&lt;br&gt;and his concept was that you would soon learn to listen to that and know whether when it got hung up in a loop or something else or what&lt;br&gt;it was doing all this time, which he’d never been able to tell before.&lt;br&gt;That was a great idea, but I don’t think it was really a very good idea.&lt;br&gt;That command seems to have disappeared from the vocabulary. [laughs]&lt;/p&gt;
+&lt;h3 id=&quot;COMPUTING-MACHINERY-AND-INTELLIGENCE&quot;&gt;&lt;a href=&quot;#COMPUTING-MACHINERY-AND-INTELLIGENCE&quot; class=&quot;headerlink&quot; title=&quot;COMPUTING MACHINERY AND INTELLIGENCE&quot;&gt;&lt;/a&gt;COMPUTING MACHINERY AND INTELLIGENCE&lt;/h3&gt;&lt;p&gt;By A. M. Turing (an excerpt)&lt;/p&gt;
+&lt;p&gt;The short answer to this argument is that although it is established that there are&lt;br&gt;limitations to the Powers of any particular machine, it has only been stated, without&lt;br&gt;any sort of proof, that no such limitations apply to the human intellect. But I do not&lt;br&gt;think this view can be dismissed quite so lightly. Whenever one of these machines&lt;br&gt;is asked the appropriate critical question, and gives a definite answer, we know that&lt;br&gt;this answer must be wrong, and this gives us a certain feeling of superiority. Is this&lt;br&gt;feeling illusory? It is no doubt quite genuine, but I do not think too much&lt;br&gt;importance should be attached to it. We too often give wrong answers to questions&lt;br&gt;ourselves to be justified in being very pleased at such evidence of fallibility on the&lt;br&gt;part of the machines. Further, our superiority can only be felt on such an occasion&lt;br&gt;in relation to the one machine over which we have scored our petty triumph. There&lt;br&gt;would be no question of triumphing simultaneously over all machines. In short,&lt;br&gt;then, there might be men cleverer than any given machine, but then again there&lt;br&gt;might be other machines cleverer again, and so on&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Notes-From-“interactive-art-and-embodiment”-by-Nathaniel-Stern&quot;&gt;&lt;a href=&quot;#Notes-From-“interactive-art-and-embodiment”-by-Nathaniel-S
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>start typing</title>
+    <link href="http://mhfowler.github.io/notes-from-sfpc/2016/06/20/start-typing/"/>
+    <id>http://mhfowler.github.io/notes-from-sfpc/2016/06/20/start-typing/</id>
+    <published>2016-06-20T17:53:56.000Z</published>
+    <updated>2016-06-20T18:05:14.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://mhfowler.github.io/westbeth-processing/sketches/vera1/vera1.html&quot;&gt;http://mhfowler.github.io/westbeth-processing/sketches/vera1/vera1.html&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://mhfowler.github.io/westbeth-processing/sketches/vera1/vera1.html&quot;&gt;http://mhfowler.github.io/westbeth-processing/sketches/
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>yarn</title>
+    <link href="http://mhfowler.github.io/notes-from-sfpc/2016/06/20/yarn/"/>
+    <id>http://mhfowler.github.io/notes-from-sfpc/2016/06/20/yarn/</id>
+    <published>2016-06-20T17:30:53.000Z</published>
+    <updated>2016-06-20T17:44:21.000Z</updated>
+    
+    <content type="html">&lt;p&gt;inspired by daniel temkin’s interest in esolangs, we had a homework assignment to design a new programming language.&lt;br&gt;this is a programming language made out of yarn and pipe-cleaners&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/R10Ctv9.jpg&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;inspired by daniel temkin’s interest in esolangs, we had a homework assignment to design a new programming language.&lt;br&gt;this is a program
     
     </summary>
     
@@ -44,17 +106,17 @@
   
   <entry>
     <title>goodmorning</title>
-    <link href="http://mhfowler.github.io/notes-from-sfpc/2016/06/20/goodmorning/"/>
-    <id>http://mhfowler.github.io/notes-from-sfpc/2016/06/20/goodmorning/</id>
-    <published>2016-06-20T04:31:55.000Z</published>
-    <updated>2016-06-20T16:58:52.000Z</updated>
+    <link href="http://mhfowler.github.io/notes-from-sfpc/2016/06/10/goodmorning/"/>
+    <id>http://mhfowler.github.io/notes-from-sfpc/2016/06/10/goodmorning/</id>
+    <published>2016-06-10T04:31:55.000Z</published>
+    <updated>2016-06-20T18:51:21.000Z</updated>
     
-    <content type="html">&lt;h3 id=&quot;Goodmorning&quot;&gt;&lt;a href=&quot;#Goodmorning&quot; class=&quot;headerlink&quot; title=&quot;Goodmorning&quot;&gt;&lt;/a&gt;Goodmorning&lt;/h3&gt;&lt;p&gt;this is a blog post&lt;/p&gt;
+    <content type="html">&lt;p&gt;computers are illusion machines&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;Goodmorning&quot;&gt;&lt;a href=&quot;#Goodmorning&quot; class=&quot;headerlink&quot; title=&quot;Goodmorning&quot;&gt;&lt;/a&gt;Goodmorning&lt;/h3&gt;&lt;p&gt;this is a blog post&lt;/p&gt;
+      &lt;p&gt;computers are illusion machines&lt;/p&gt;
 
     
     </summary>
