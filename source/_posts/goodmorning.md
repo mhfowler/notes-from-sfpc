@@ -1,9 +1,8 @@
 ---
 title: goodmorning
-date: 2016-06-20 00:31:55
+date: 2016-06-10 00:31:55
 tags:
 ---
 
-### Goodmorning
+computers are illusion machines
 
-this is a blog post
