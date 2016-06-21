@@ -10,7 +10,7 @@ closet (also containing the internet router and cleaning supplies), along with s
 geometric broken image links from the album art I photo-shopped together from 
 heavily filtered images of things around my house:
 <a href="https://web.archive.org/web/20090323231502/http://www.maximusfowler.com/maximusproductions/Music.html">
-<img style="margin-bottom: 5px" src="/static/remnant.png"/></a>
+<img style="margin-bottom: 5px" src="http://mhfowler.github.io/notes-from-sfpc/static/remnant.png"/></a>
 
 My freshman and sophomore years of high school I didn't have many friends &mdash; I spent a lot of time next to the router 
 making angsty electronic music. I kept a small MIDI keyboard and microphone on a fold-able table in the closet.
@@ -22,14 +22,14 @@ I put all the songs and album
 art onto http://maximusfowler.com and didn't share the website or music with anyone. 
 
 This last spring I looked up maximusfowler.com on the wayback machine and found three entries:
-<img src="/static/wayback.png"/>
+<img src="http://mhfowler.github.io/notes-from-sfpc/static/wayback.png"/>
 
 I clicked through to Music.html and found the following remnant of a page from 2009:
 https://web.archive.org/web/20090323231502/http://www.maximusfowler.com/maximusproductions/Music.html
 
 Scrolling through the blue letters on the dark background, thinking about echoes
 of a memory, of looking out the window of my bedroom at night, and an even more distant
-memory of barefoot stepping on a firecracker and crying, and other memories, of
+memory of barefoot stepping on a firecracker and crying, of
 diving into a lake and passing through an unexpected cold patch of water.
 
 Perhaps these dark blue letters and empty boxes reverberate my childhood to me 
