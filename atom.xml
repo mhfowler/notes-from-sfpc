@@ -5,7 +5,7 @@
   <link href="/notes-from-sfpc/atom.xml" rel="self"/>
   
   <link href="http://mhfowler.github.io/notes-from-sfpc/"/>
-  <updated>2016-06-21T17:56:07.000Z</updated>
+  <updated>2016-06-28T11:17:45.000Z</updated>
   <id>http://mhfowler.github.io/notes-from-sfpc/</id>
   
   <author>
@@ -14,6 +14,47 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>no google</title>
+    <link href="http://mhfowler.github.io/notes-from-sfpc/2016/06/28/no-google/"/>
+    <id>http://mhfowler.github.io/notes-from-sfpc/2016/06/28/no-google/</id>
+    <published>2016-06-28T11:14:25.000Z</published>
+    <updated>2016-06-28T11:17:45.000Z</updated>
+    
+    <content type="html">&lt;p&gt;In this blog post I plot a roadmap of how to remove my dependence from Google and from my iPhone.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Just No Google&lt;/li&gt;
+&lt;li&gt;No Google / No Phone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Just-No-Google&quot;&gt;&lt;a href=&quot;#Just-No-Google&quot; class=&quot;headerlink&quot; title=&quot;Just No Google&quot;&gt;&lt;/a&gt;Just No Google&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;apple maps instead of google maps (or physical maps)&lt;/li&gt;
+&lt;li&gt;alternatives to Google Search (duckduckgo, dogpile, bing)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Gmail and Google Drive are two services I use which I can’t simply replace temporarily.&lt;br&gt;A number of people contact me through my gmail address and I keep some files on Google Drive.&lt;br&gt;For the purpose of this week long experiment I will continue to use Gmail and Google Drive &amp;mdash; if I were more seriously/permanently removing&lt;br&gt;Google from my life I would have to take more permanent steps to remove my dependence on Gmail and Google Drive.&lt;/p&gt;
+&lt;p&gt;To Permanently Leave Google&lt;br&gt;In addition to creating a new address with a new provider, I would write a script to send an email to all of my contacts on Gmail (and everyone who had ever emailed me) telling them that I was shutting down my Gmail and providing my new email address. I would additionally set-up an auto-reply to send this message to anyone who emails my old Gmail.&lt;/p&gt;
+&lt;p&gt;To remove my dependence on Google Drive, I would export all of my documents from google drive to my computer. In researching how to do this I discovered Google Takeout (&lt;a href=&quot;https://takeout.google.com/settings/takeout&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://takeout.google.com/settings/takeout&lt;/a&gt;), a service provided by google to download all of your data.&lt;/p&gt;
+&lt;h2 id=&quot;No-Google-No-Phone&quot;&gt;&lt;a href=&quot;#No-Google-No-Phone&quot; class=&quot;headerlink&quot; title=&quot;No Google / No Phone&quot;&gt;&lt;/a&gt;No Google / No Phone&lt;/h2&gt;&lt;p&gt;Recently I put a utility shelf in the corner of my apartment. I took all of the things in my apartment which I did not need, and I put them on the shelf. The things were still there if I really needed them, but I felt lighter and more focused.&lt;/p&gt;
+&lt;p&gt;I would like to treat my phone like my apartment &amp;mdash; instead of the maximalist cultural notion of having access to as many things as possible, I want to only have access to the things I need and keep everything else on a utility shelf (a laptop or desktop).&lt;/p&gt;
+&lt;p&gt;——————— simple phone alernatives:&lt;br&gt;////// &lt;a href=&quot;http://www.thelightphone.com/#yourphoneawayfromphone&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.thelightphone.com/#yourphoneawayfromphone&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.samsung.com/uk/consumer/mobile-devices/other-phones/others/GT-E1270RWABTU?CID=AFL-hq-mul-0813-11000170&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.samsung.com/uk/consumer/mobile-devices/other-phones/others/GT-E1270RWABTU?CID=AFL-hq-mul-0813-11000170&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;——————– dream phone (speculative design)&lt;br&gt;…. make &amp;amp; receive phone calls&lt;br&gt;…. google maps&lt;br&gt;…. instapaper&lt;br&gt;…. simplenote&lt;br&gt;——————– auto text response saying I am currently off the grid&lt;br&gt;…. how to forward text messages to a format which python can read them? &lt;a href=&quot;https://www.tekrevue.com/tip/sms-relay-configuration-fix/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.tekrevue.com/tip/sms-relay-configuration-fix/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;…. there appears to be no way to do this :/ …. ah, but there is a way!&lt;br&gt;&lt;a href=&quot;http://i.imgur.com/W7fZt5v.png&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://i.imgur.com/W7fZt5v.png&lt;/a&gt;&lt;br&gt;…..  /Users/maxfowler/Library/Application Scripts/com.apple.iChat/&lt;br&gt;… &lt;a href=&quot;https://github.com/mhfowler/iphone-autoresponder&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/mhfowler/iphone-autoresponder&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;…. just need to add some applescript which uses python to check the last time auto-response sent a message, so it doesn’t oversend responses…. and test ability of this applescript to forward texts (and transfered files)&lt;br&gt;……. imagining extending this to auto-responders for all services… they send a maximum of 1 message per day&lt;/p&gt;
+&lt;p&gt;…. it would also be nice if it provided a unified inbox where you could respond and set notification rules / mark stuff as read…..&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;In this blog post I plot a roadmap of how to remove my dependence from Google and from my iPhone.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Just No Google&lt;/li&gt;
+&lt;li&gt;No
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>wayback</title>
