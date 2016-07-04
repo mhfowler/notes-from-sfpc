@@ -34,9 +34,10 @@ body {
     margin-bottom: 40px;
 }
 
-.navlink {
+a.navlink {
     width: 100%;
     display:block;
+    color:black;
 }
 
 .blog-post {
@@ -53,10 +54,17 @@ img {
 }
 
 a {
-    color: black;
+    /*color: black;*/
+    color: #9500ff;
     text-decoration:none;
 }
 
 h2 a {
     color: #00119c
 }
+
+
+.blog-header a {
+        color: black;
+}
+
