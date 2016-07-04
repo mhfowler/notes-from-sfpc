@@ -5,7 +5,7 @@
   <link href="/notes-from-sfpc/atom.xml" rel="self"/>
   
   <link href="http://mhfowler.github.io/notes-from-sfpc/"/>
-  <updated>2016-07-04T02:09:47.000Z</updated>
+  <updated>2016-07-04T02:13:03.000Z</updated>
   <id>http://mhfowler.github.io/notes-from-sfpc/</id>
   
   <author>
@@ -20,13 +20,13 @@
     <link href="http://mhfowler.github.io/notes-from-sfpc/2016/07/03/autonomous/"/>
     <id>http://mhfowler.github.io/notes-from-sfpc/2016/07/03/autonomous/</id>
     <published>2016-07-03T22:25:30.000Z</published>
-    <updated>2016-07-04T02:09:47.000Z</updated>
+    <updated>2016-07-04T02:13:03.000Z</updated>
     
     <content type="html">&lt;p&gt;Prompt:&lt;br&gt;Create an Autonomous Network&lt;/p&gt;
 &lt;p&gt;I am not building anything new for this prompt, but I think similar thoughts to the idea of an Automonous Network inspired my creation of Oasis earlier this summer. I will write about the connections I see.&lt;/p&gt;
 &lt;p&gt;Oasis is a raspberry pi currently hanging off of a pipe at SFPC in the corner of the work-space room which anyone can SSH into by following the instructions here: &lt;a href=&quot;http://mhfowler.github.io/html/oasis_terminal.html&quot;&gt;http://mhfowler.github.io/html/oasis_terminal.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Around 20 people signed up and logged in. With just a few initial files and folders suggesting the meaning of the space, visitors continued expanding upon the illusory world presented, adding new folders and files (a window, attic, basement).&lt;/p&gt;
-&lt;p&gt;Oasis is a strange microcosm of the world — the directories feel like physical space, and through text visitors can have meaningful interactions with eachother, through chatting and sharing files. Oasis attempts to strip down the meaning of a shared reality to the minimal digital tools which can compose it, it uses the bare-bones infrastructure of an operating system to virtualize an emotional space where people can be present together.&lt;/p&gt;
+&lt;p&gt;Oasis is a strange microcosm of the world — the directories feel like physical space, and through text visitors can interact with each-other by chatting and sharing files. Oasis attempts to strip down the meaning of a shared reality to the minimal digital tools which can compose it, it uses the bare-bones infrastructure of an operating system to virtualize an emotional space where people can be present together.&lt;/p&gt;
 &lt;p&gt;Oasis relies on an electric current to power the Pi and a connection to the internet. Once users are SSHed into the Pi, they can communicate directly through the operating system (by leaving files and using ytalk) and no longer depend on any services or tools external to the software installed on the Pi.&lt;/p&gt;
 &lt;p&gt;In a longer timescale, there are other dependencies which need to be considered (the use of twitter to spread access to the Pi, the industrial infrastructure which was necessary to create the pi, the software tools and libraries which were just to write the software for the pi, and the laptops used by visitors to use SSH).&lt;/p&gt;
 </content>
